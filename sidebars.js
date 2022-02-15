@@ -58,7 +58,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Useful WorldEdit commands',
+      label: 'WorldEdit',
       items: [
         {
           type: 'doc',
@@ -71,20 +71,21 @@ const sidebars = {
         {
           type: 'doc',
           id: 'worldedit/beginner-commands'
-        }
+        },
+        {
+          type: 'category',
+          label: 'World edit basics',
+          items: [
+            {
+              type: 'doc',
+              id: 'worldedit/basics/worldedit-wand'
+            }
+          ]
+        },
        
       ]
     },
-    {
-      type: 'category',
-      label: 'World edit basics',
-      items: [
-        {
-          type: 'doc',
-          id: 'worldedit/basics/worldedit-wand'
-        }
-      ]
-    },
+    
   ],
 };
 
