@@ -72,8 +72,19 @@ const sidebars = {
           type: 'doc',
           id: 'worldedit/beginner-commands'
         }
+       
       ]
-    }
+    },
+    {
+      type: 'category',
+      label: 'World edit basics',
+      items: [
+        {
+          type: 'doc',
+          id: 'worldedit/basics/worldedit-wand'
+        }
+      ]
+    },
   ],
 };
 
