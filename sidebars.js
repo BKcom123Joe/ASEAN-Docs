@@ -114,15 +114,12 @@ const sidebars = {
         id: 'mastering',
       },
       items: [
-<<<<<<< Updated upstream
-=======
-<<<<<<< Updated upstream
         {
           type: 'doc',
-          id: 'worldedit/blocks-ids'
-=======
->>>>>>> Stashed changes
-        { /* "Advance Building" Category */
+          id: 'mastering/worldedit/basic/blocks-ids'
+        },
+        { 
+          /* "Advance Building" Category */
           type: 'category',
           label: 'Advance Building',
           link: {
@@ -131,11 +128,9 @@ const sidebars = {
           items: [
             /* Advance Building Documents */
             "mastering/advance-building/detailing",
-<<<<<<< Updated upstream
-          ],
-=======
-                        /* Advance Brush Documents */
-            "mastering/advance-building/brush",
+
+            // /* Advance Brush Documents */
+            // "mastering/advance-building/brush",
           ],
         },
         { /* "World Edit" Category */
@@ -180,56 +175,7 @@ const sidebars = {
               items: [
                 "mastering/worldedit/advanced-commands/wcmd.brush",
               ],
-            },
-
-          ],
->>>>>>> Stashed changes
->>>>>>> Stashed changes
-        },
-        { /* "World Edit" Category */
-          type: 'category',
-          label: 'World Edit',
-          link: {
-            type: "doc",
-            id: "mastering/worldedit/what-is-worldedit"
-          },
-          items: [
-            /* World Edit Documents */
-            { 
-              type: 'category',
-              label: 'Basic of World Edit',
-              link: {
-                type: "doc",
-                id: "mastering/worldedit/basic-worldedit"
-              },
-              items: [
-                "mastering/worldedit/basic/blocks-ids",
-                "mastering/worldedit/basic/select-region",
-              ],
-            },
-            { 
-              type: 'category',
-              label: 'Basic Commands',
-              link: {
-                type: "doc",
-                id: "mastering/worldedit/basic-commands"
-              },
-              items: [
-                "mastering/worldedit/basic-commands/wcmd.sel-poly",
-              ],
-            },
-            { 
-              type: 'category',
-              label: 'Advanced Commands',
-              link: {
-                type: "doc",
-                id: "mastering/worldedit/advanced-commands"
-              },
-              items: [
-                "mastering/worldedit/advanced-commands/wcmd.brush",
-              ],
-            },
-
+            }, 
           ],
         },
         { /* "Tips" Category */
