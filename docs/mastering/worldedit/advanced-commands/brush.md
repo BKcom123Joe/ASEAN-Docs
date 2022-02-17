@@ -3,7 +3,7 @@ title: brush command
 id: wcmd.brush
 ---
 its brush not bruh-sh.
-<h2> Sphere Brush (Sphere yes SPhere) </h2>
+<h2> Sphere Brush (Sphere yes Sphere) </h2>
 
 ```
 /brush sphere [-h] <pattern/block> [radius]
