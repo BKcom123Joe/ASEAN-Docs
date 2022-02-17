@@ -1,0 +1,3 @@
+Just a note for myself and future people writing this.
+This folder is for new people that are getting started in BTE.
+So BASICS are meant to be in here no advance worldedit

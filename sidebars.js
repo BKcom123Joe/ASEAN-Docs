@@ -88,19 +88,19 @@ const sidebars = {
         {
           type: "doc",
           label: "Requirements",
-          id: "become-official/official-builder-req"
+          id: "become-official-builder/official-builder-req"
         },
         {
           type: "doc",
           label: "Modpack",
-          id: "become-official/modpack"
+          id: "become-official-builder/modpack"
         },
         {
           type: "doc",
           label: "Exam Plot",
-          id: "become-official/exam-plot",
+          id: "become-official-builder/exam-plot",
         },
-        "become-official/finish-the-exam",
+        "become-official-builder/finish-the-exam",
       ]
     },
     /* "Mastering as a Builder" Category */
@@ -116,27 +116,14 @@ const sidebars = {
       items: [
         {
           type: 'doc',
-          id: 'mastering/worldedit/basic/blocks-ids'
-        },
-        { 
-          /* "Advance Building" Category */
-          type: 'category',
-          label: 'Advance Building',
-          link: {
-            type: "generated-index",
-          },
-          items: [
-            /* Advance Building Documents */
-            "mastering/advance-building/detailing",
-
-          ],
+          id: 'worldedit/basic/blocks-ids'
         },
         { /* "World Edit" Category */
           type: 'category',
           label: 'World Edit',
           link: {
             type: "doc",
-            id: "mastering/worldedit/what-is-worldedit"
+            id: "worldedit/what-is-worldedit"
           },
           items: [
             /* World Edit Documents */
@@ -145,11 +132,11 @@ const sidebars = {
               label: 'Basic of World Edit',
               link: {
                 type: "doc",
-                id: "mastering/worldedit/basic-worldedit"
+                id: "worldedit/basic-worldedit"
               },
               items: [
-                "mastering/worldedit/basic/blocks-ids",
-                "mastering/worldedit/basic/select-region",
+                "worldedit/basic/blocks-ids",
+                "worldedit/basic/select-region",
               ],
             },
             { 
@@ -157,10 +144,10 @@ const sidebars = {
               label: 'Basic Commands',
               link: {
                 type: "doc",
-                id: "mastering/worldedit/basic-commands"
+                id: "worldedit/basic-commands"
               },
               items: [
-                "mastering/worldedit/basic-commands/wcmd.sel-poly",
+                "worldedit/basic-commands/wcmd.sel-poly",
               ],
             },
             { 
@@ -168,10 +155,10 @@ const sidebars = {
               label: 'Advanced Commands',
               link: {
                 type: "doc",
-                id: "mastering/worldedit/advanced-commands"
+                id: "worldedit/advanced-commands"
               },
               items: [
-                "mastering/worldedit/advanced-commands/wcmd.brush",
+                "worldedit/advanced-commands/wcmd.brush",
               ],
             }, 
           ],
@@ -183,10 +170,10 @@ const sidebars = {
           type: "generated-index",
         },
         items: [
-          "mastering/tips/best-practices",
-          "mastering/tips/finding-borders-of-my-plot",
-          "mastering/tips/settings",
-          "mastering/tips/teleport",
+          "bte-modpack-stuff/best-practices",
+          "bte-modpack-stuff/finding-borders-of-my-plot",
+          "bte-modpack-stuff/settings",
+          "bte-modpack-stuff/teleport",
         ],
       },
       ]
