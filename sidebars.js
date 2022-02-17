@@ -129,8 +129,6 @@ const sidebars = {
             /* Advance Building Documents */
             "mastering/advance-building/detailing",
 
-            // /* Advance Brush Documents */
-            // "mastering/advance-building/brush",
           ],
         },
         { /* "World Edit" Category */
