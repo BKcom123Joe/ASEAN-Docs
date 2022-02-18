@@ -103,15 +103,15 @@ const sidebars = {
         "become-official-builder/finish-the-exam",
       ]
     },
-    /* "Mastering as a Builder" Category */
+    /* "Improving your building skills" Category */
     {
       type: 'category',
-      label: 'Mastering as a Builder',
+      label: 'Improving your building skills',
       collapsible: true,
       collapsed: true,
       link: {
         type: 'doc',
-        id: 'mastering',
+        id: 'improve',
       },
       items: [
         {
